@@ -7,8 +7,9 @@
   --dl-space-space-unit: 16px;
   --dl-size-size-xxlarge: 288px;
   --dl-color-scheme-black: #0f1722ff;
-  --dl-color-scheme-brown: #914332ff;
+  --dl-color-scheme-green: #498C42;
   --dl-color-scheme-blue: #0A82B7;
+  --dl-color-scheme-purple: #401962;
   --dl-color-scheme-white: #FFFFFF;
   --dl-size-size-maxwidth: 988px;
   --dl-radius-radius-round: 50%;
@@ -119,7 +120,7 @@
   line-height: 1;
   border-color: transparent;
   border-radius: var(--dl-radius-radius-radius4);
-  background-color: var(--dl-color-scheme-blue);
+  background-color: var(--dl-color-scheme-green);
 }
 .button-primary:hover {
   color: var(--dl-color-scheme-darkblue);
@@ -173,7 +174,7 @@
 }
 .button-secondary:hover {
   color: var(--dl-color-scheme-white);
-  background-color: var(--dl-color-scheme-brown);
+  background-color: var(--dl-color-scheme-purple);
 }
 .button-secondary-white {
   color: #191919;
