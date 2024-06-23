@@ -2212,32 +2212,36 @@ textarea.w-input, textarea.w-select {
   align-self: flex-start;
 }
 
-.section {
-  height: var(--size);
-  background-color: rgba(0, 167, 0, .5);
-}
-
-.section-2 {
-  height: var(--size);
-  background-color: rgba(255, 215, 0, .5);
-}
-
-.section-3 {
-  height: var(--size);
-  background-color: rgba(255, 136, 0, .51);
-}
-
-.section-4 {
+.section-1 {
   height: var(--size);
   background-color: rgba(56, 71, 236, .5);
 }
 
-.quick-stack, .quick-stack-2, .quick-stack-3 {
-  margin-top: 40px;
-  margin-bottom: 50px;
+.section-2 {
+  height: var(--size);
+  background-color: rgba(0, 167, 0, .5);
+}
+
+.section-3 {
+  height: var(--size);
+  background-color: rgba(255, 215, 0, .5);
+}
+
+.section-4 {
+  height: var(--size);
+  background-color: rgba(255, 136, 0, .51);
 }
 
 .section-5 {
+  margin-bottom: 50px;
+}
+
+.section-6 {
+  height: var(--size);
+}
+
+.quick-stack, .quick-stack-2, .quick-stack-3 {
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -2256,10 +2260,6 @@ textarea.w-input, textarea.w-select {
   align-self: center;
   margin-top: 39px;
   display: block;
-}
-
-.section-6 {
-  height: var(--size);
 }
 
 #w-node-d202d8de-ede8-3ba7-df6a-4583be86a9ec-f577fb3b {
