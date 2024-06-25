@@ -30,6 +30,10 @@
   --dl-color-scheme-lightbrown: #f9f4f0ff;
   --dl-space-space-oneandhalfunits: 24px;
 }
+.body-url {
+  color: #0000FF;
+  text-decoration: underline;
+}
 .button {
   color: var(--dl-color-scheme-black);
   display: inline-block;
