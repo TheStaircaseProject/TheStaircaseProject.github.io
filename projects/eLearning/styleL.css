@@ -28,8 +28,6 @@ audio:not([controls]) {
 
 a {
   background-color: rgba(0, 0, 0, 0);
-  color: #0000FF;
-  text-decoration: underline;
 }
 
 a:active, a:hover {
@@ -212,6 +210,12 @@ td, th {
 .w-icon-file-upload-icon:before {
   content: "";
 }
+
+.body-url {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
 
 * {
   box-sizing: border-box;
