@@ -66,24 +66,14 @@ window.synth.set ({
 window.Script5 = function()
 {
   const p = GetPlayer();
-let arg1 = p.GetVar("type");
-let arg2 = p.GetVar("harmonics");
+let waveform = p.GetVar("type");
+let power = p.GetVar("harmonics");
 
-console.log(arg2);
-
-if (arg2 > 0) {
-	window.synth.set ({
-		"oscillator" : { 
-			"type" : concat(arg1, arg2)
-		}
-	});
-} else {
-	window.synth.set ({
-		"oscillator" : { 
-			"type" : arg1
-		}
-	});
-}
+window.synth.set ({
+	"oscillator" : { 
+		"type" : waveform.concat(Math.pow(2, power))
+	}
+});
 }
 
 window.Script6 = function()
@@ -158,24 +148,30 @@ let gain = new Tone.Volume(newVol);
 window.Script12 = function()
 {
   const p = GetPlayer();
-let arg1 = p.GetVar("type");
-let arg2 = p.GetVar("harmonics");
+let waveform = p.GetVar("type");
+let power = p.GetVar("harmonics");
 
-console.log(arg2);
-
-if (arg2 > 0) {
-	window.synth.set ({
-		"oscillator" : { 
-			"type" : arg1.concat(arg2)
-		}
-	});
-} else {
-	window.synth.set ({
-		"oscillator" : { 
-			"type" : arg1
-		}
-	});
+window.synth.set ({
+	"oscillator" : { 
+		"type" : waveform.concat(Math.pow(2, power))
+	}
+});
 }
+
+window.Script13 = function()
+{
+  const p = GetPlayer();
+const theme = p.GetVar("theme");
+const previous = ( theme == 1? 7 : theme - 1 );
+p.SetVar("theme", previous);
+}
+
+window.Script14 = function()
+{
+  const p = GetPlayer();
+const theme = p.GetVar("theme");
+const next = ( theme == 7? 1 : theme + 1 );
+p.SetVar("theme", next);
 }
 
 };
