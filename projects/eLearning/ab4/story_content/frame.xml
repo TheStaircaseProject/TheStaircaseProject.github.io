@@ -19,7 +19,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/6i0DbyWgbUu.png" />
+              <option name="html5_logo_url" value="mobile/69M7qRXvfJe.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -64,8 +64,8 @@
           <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="true" />
-              <option name="readonlyOnce" value="true" />
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="pauseplay" value="true" />
